@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import HelloWorld from "@/components/HelloWorld.vue";
 import { useAuthStore } from "@/stores/auth";
 import { onMounted } from "vue";
 
